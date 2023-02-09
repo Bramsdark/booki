@@ -381,60 +381,92 @@ h2
     #menuHA
     {
         float: none;
+        
     }
     
     #menuHA ul {
         
         display: grid;
         grid-template-columns: 50% 50%;
+        padding-left: 0px;
+        justify-items: center;
+        
+        
 
     }
 
     ul li {
         padding: 0px;
         
-        
     }
    
     ul li a {
         color: black;
         text-decoration: none;
-        padding-bottom: 24px;
         padding: 0px;
+        
+        
     }
    
 
     ul li a:hover {
         color: #0065FC;
         border-top: none;
-        border-bottom: solid 2px #0065FC;
         font-weight: 900;
+        padding-bottom: 20px;
+        
     }
 
     #hebMar
     {
-        align-items: center;
-        justify-content: center;
-        
+        padding-left: 13%;
+        padding-right: 15.5%;
+        padding-bottom: 20px;
+        border-bottom: solid 2px #F2F2F2;
     }
 
     #actMar
     {
-        align-items: center;
-        justify-content: center;
+        padding-left: 34%;
+        padding-right: 25.5%;
+        padding-bottom: 20px;
+        border-bottom: solid 2px #F2F2F2;
+    }
+
+    #hebMar:hover
+    {
+        padding-left: 13%;
+        padding-right: 14%;
+        padding-bottom: 20px;
+        border-bottom: solid 2px #0065FC;
+    }
+
+    #actMar:hover
+    {
+        padding-left: 34%;
+        padding-right: 24%;
+        padding-bottom: 20px;
+        border-bottom: solid 2px #0065FC;
     }
     
     .navigation {
         clear: both;
         overflow: auto;
     }
-    
-    
 
     #hebpop
     {
-        grid-template-columns: 768px;
-        
+        display: flex;
+    }
+
+    #hebergement
+    {
+        display: flex;
+    }
+
+    #populaire
+    {
+        display: flex;
     }
 
     #hebpop:nth-last-child(1){order: 2;}
