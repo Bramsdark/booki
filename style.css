@@ -47,7 +47,7 @@ h1
 
 h2
 {
-    font-weight: 300;
+    font-weight: lighter;
 }
 
 form
@@ -89,8 +89,15 @@ form
 
 #searchVille::placeholder
 {
-    color: black;
+    color: #F2F2F2;
 }
+
+#searchVille:focus
+{
+    outline: none;
+    border:1px solid #D9D9D9;
+}
+
 
 #filtre
 {
@@ -244,6 +251,7 @@ h2
 #chart
 {
     color: #0065FC;
+    align-items: end;
 }
 
 #hebpop
@@ -370,6 +378,7 @@ h2
         float: none;
         width: 30%;
         margin-left: 35%;
+        margin-bottom: 10%;
     }
     
     .navigation {
@@ -412,7 +421,7 @@ h2
     ul li a:hover {
         color: #0065FC;
         border-top: none;
-        font-weight: 900;
+        font-weight: 100;
         padding-bottom: 20px;
         
     }
@@ -435,16 +444,16 @@ h2
 
     #hebMar:hover
     {
-        padding-left: 13%;
-        padding-right: 14%;
+        padding-left: 14%;
+        padding-right: 15%;
         padding-bottom: 20px;
         border-bottom: solid 2px #0065FC;
     }
 
     #actMar:hover
     {
-        padding-left: 34%;
-        padding-right: 24%;
+        padding-left: 35%;
+        padding-right: 25%;
         padding-bottom: 20px;
         border-bottom: solid 2px #0065FC;
     }
@@ -454,22 +463,157 @@ h2
         overflow: auto;
     }
 
-    #hebpop
+    h1
     {
-        display: flex;
+        font-size: 25px;
     }
+    
 
-    #hebergement
-    {
-        display: flex;
-    }
 
-    #populaire
-    {
-        display: flex;
-    }
+#searchVille
+{
+    padding: 15px;
+    border-left: 0;
+    border-right: 0;
+    border: 1px solid #F2F2F2;
+    width: 45%;
+    font-weight: bold;
+    font-size: 18px;
+    color:black;
+}
 
-    #hebpop:nth-last-child(1){order: 2;}
-    #hebpop:nth-last-child(2){order: 1;}
+
+
+#buttonSearch
+{
+    padding: 15px;
+    color: white;
+    border: 1px solid #0065FC;
+    background-color : #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#searchVille::placeholder
+{
+    color: #F2F2F2;
+}
+
+#filtre
+{
+    display : grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50% 50%;
+    row-gap: 19%;
+    column-gap: 4%;
+
+    margin-bottom: 45%;
+    
+}
+
+#filtre p
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.buttonFil
+{
+    padding: right;
+    
+}
+
+#hebpop
+{
+    display: grid;
+    grid-template-columns: 1fr;
+
+
+}
+
+#hebergement
+{
+    grid-row: 2/3;
+    height: 100%;
+    width: 100%;
+    background: white;
+    padding: 0%;
+    border-radius: 0px 0px 0px 0px;
+}
+
+#populaire
+{
+    grid-row: 1/2;
+    height: 100%;
+    width: 100%;
+    background: #F2F2F2;
+    padding: 0%;
+    border-radius: 0px 0px 0px 0px;
+}
+
+#content1
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    row-gap: 10px;
+    border-radius: 20px;
+}
+
+#content2
+{
+    display: grid;
+    grid-template-rows: 160px 160px;
+    row-gap: 10px;
+    border-radius: 20px;
+}
+
+.hebergeSelect
+{
+    width: 385px;
+}
+
+.hebergeSelect img
+{
+    width: 375px;
+}
+
+.linkHeb
+{
+    visibility: hidden;
+}
+
+#content3
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 3%;
+}
+
+.lieux img
+{
+    width: 385px;
+    height: 100px;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+#finPage 
+{
+    display: grid;
+    grid-template-columns: 205px;
+    margin-top: 30%;
+    margin-left: none;
+    margin-right: none;
+    justify-content: start;
+}
+
+.prop
+{
+    margin-left: none;
+    margin-right: none;
+    align-content: start;
+}
 
 }
