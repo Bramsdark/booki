@@ -122,9 +122,9 @@ form
 .buttonFil 
 {
     font-family: "Raleway";
-    width: 18%;
     font-weight: 700;
-    padding: 1.5%;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
     border: 2px solid #D9D9D9;
     border-radius: 360px;
     margin-left: 2%;
@@ -409,9 +409,7 @@ h2
     }
     .buttonFil
     {
-        width: 21%;
-        padding: 0;
-        font-size: 16px;
+        
     }
 
     .logo img
@@ -495,19 +493,15 @@ h2
     #menuHA
     {
         float: none;
-        margin-right: auto;
-        margin-left: auto;
         
     }
 
     
     #menuHA ul {
         
-        display: grid;
-        grid-template-columns: 49% 49%;
-        padding-left: 0px;
-        justify-items: center;
-        
+        display: flex;
+        justify-content: space-around;
+        padding-left: 0%;
         
 
     }
@@ -536,40 +530,41 @@ h2
 
     #hebMar
     {
-        padding-left: 13%;
-        padding-right: 15.5%;
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
         padding-bottom: 20px;
         border-bottom: solid 2px #F2F2F2;
     }
 
     #actMar
     {
-        padding-left: 29%;
-        padding-right: 25.5%;
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
         padding-bottom: 20px;
         border-bottom: solid 2px #F2F2F2;
     }
 
     #hebMar:hover
     {
-        padding-left: 13%;
-        padding-right: 15.5%;
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
         padding-bottom: 20px;
         border-bottom: solid 2px #0065FC;
     }
 
     #actMar:hover
     {
-        padding-left: 29%;
-        padding-right: 25.5%;
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
         padding-bottom: 20px;
         border-bottom: solid 2px #0065FC;
     }
     
-    .navigation {
-        clear: both;
-        overflow: auto;
-    }
+    
 
     h1
     {
@@ -665,8 +660,6 @@ h2
     
     .buttonFil
     {
-        width: 100%;
-        font-size: 13px;
         margin-left: 0;
         text-align: left;
         padding-left: 0%;
