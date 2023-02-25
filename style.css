@@ -173,10 +173,6 @@ h2
     flex-wrap: wrap;
 }
 
-#container #populaire
-{
-    flex-wrap: nowrap !important;
-}
 
 .linkHeb
 {
@@ -407,23 +403,33 @@ h2
     {
         width: 40%;
     }
-    .buttonFil
-    {
-        
-    }
 
     .logo img
     {
         width: 9%
     }
- 
+    
+
 
     #content2
     {
-        display: grid;
-        grid-template-columns: 100% 100% 100%;
-        grid-template-rows: 10% 0 0;
-        column-gap: 15%;
+        display: flex;
+    }
+
+    .hebergeSelect
+    {
+        width: 96%;
+
+    } 
+
+    #hebergement
+    {
+        margin-bottom: 5%;
+    }
+
+    #hebergement div a
+    {
+        margin-right: 1%;
     }
 
     .hebergeSelect2 img
@@ -434,18 +440,26 @@ h2
 
     #populaire
     {
+        width: 93%;
+        height: 20%;
+        margin-bottom: 5%;
+    }
+
+    #content2
+    {
+        display: flex;
         flex-wrap: nowrap;
-        width: 450px;
-        height: 625px;
+        justify-content: center;
+    }
+
+    .hebergeSelect2 img
+    {
+        width: 100px;
+        height: 144px;
     }
     #chart
     {
-        margin-left: 70%;
-    }
-
-    #marsMarg
-    {
-        margin-top: -33%;
+        margin-left: 67%;
     }
 
     #content3
@@ -453,10 +467,17 @@ h2
         grid-template-rows: 85%;
     }
 
+    .lieux
+    {
+        width: 202px;
+        height: 256px;
+        margin-right: 3%;
+    }
+
     .lieux img
     {
         width: 100%;
-        height: 75%;
+        height: 72%;
     }   
 }
 
@@ -673,7 +694,7 @@ h2
     
     #hebergement
     {
-        grid-row: 2/3;
+        order: 2;
         grid-template-rows: 10%;
         height: 100%;
         width: 100%;
@@ -689,12 +710,14 @@ h2
     
     #populaire
     {
-        grid-row: 1/2;
+        order: 1;
         height: 90%;
         width: 100%;
         background: #F2F2F2;
         padding: 0%;
         border-radius: 0px 0px 0px 0px;
+        margin-top: 10%;
+        margin-bottom: 10%;
         
         
     }
@@ -706,19 +729,15 @@ h2
     
     #content1
     {
-        display: grid;
-        grid-template-columns: 97%;
-        grid-template-rows: 8% 8% 8% 8% 8% 8%;;
-        row-gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
         border-radius: 20px;
     }
     
     #content2
     {
-        display: grid;
-        grid-template-columns: 315%;
-        grid-template-rows: 30% 30% 30%;
-        row-gap: 3%;
+        display: flex;
+        flex-wrap: wrap;
         border-radius: 20px;
         margin-left: 2.5%;
         margin-top: 2.5%;
@@ -731,7 +750,8 @@ h2
     
     .hebergeSelect
     {
-        width: 100%;
+        width: 356px;
+        height: 248px;
         margin-left: 1.5%
     }
     
@@ -739,6 +759,12 @@ h2
     {
         width: 97%;
         height: 60%;
+    }
+
+    .hebergeSelect2 img
+    {
+        width: 160px;
+        height: 160px;
     }
     
     .linkHeb
@@ -755,19 +781,20 @@ h2
         margin-bottom: -40%;
     }
 
-    #marsMarg
-    {
-        margin-top: 40%;
-    }
-
+ 
     .lieux
     {
         margin-left: 0;
+        width: 139%;
+    }
+
+    #actMarseille
+    {
+        order: 3;
     }
 
     #actMarseille h2
     {
-
         margin-left: 3.5%;
     }
     
@@ -784,7 +811,7 @@ h2
         display: grid;
         background: #F2F2F2;
         grid-template-columns: 205px;
-        margin-top: 145%;
+        margin-top: 80%;
         margin-left: 0;
         margin-right: 0;
     }
