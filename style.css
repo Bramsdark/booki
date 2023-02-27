@@ -223,10 +223,10 @@ h2
 
 #content1
 {
+    width: 103%;
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    
-
 }
 
 #hebergement div a
@@ -415,6 +415,10 @@ h2
         width: 9%
     }
     
+    #content1
+    {
+        width: 102%;
+    }
 
 
     #content2
