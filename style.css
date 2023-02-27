@@ -119,6 +119,12 @@ form
     font-weight: 900;
 }
 
+#filtre div
+{
+    display : flex;
+    width: 100%;
+}
+
 .buttonFil 
 {
     font-family: "Raleway";
@@ -427,9 +433,21 @@ h2
         margin-bottom: 5%;
     }
 
+
     #hebergement div a
     {
         margin-right: 1%;
+    }
+
+    #content2 a
+    {
+        width: 100%;
+        margin-right: 2%;
+    }
+
+    ..hebergeSelect2
+    {
+        width: auto;
     }
 
     .hebergeSelect2 img
@@ -449,7 +467,7 @@ h2
     {
         display: flex;
         flex-wrap: nowrap;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .hebergeSelect2 img
@@ -536,8 +554,7 @@ h2
         color: black;
         text-decoration: none;
         padding: 0px;
-        
-        
+        padding-bottom: 30px;
     }
    
 
@@ -545,7 +562,7 @@ h2
         color: #0065FC;
         border-top: none;
         font-weight: 100;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
         
     }
 
@@ -554,8 +571,8 @@ h2
         display: flex;
         justify-content: center;
         flex-grow: 1;
-        padding-bottom: 20px;
         border-bottom: solid 2px #F2F2F2;
+        width: 50%;
     }
 
     #actMar
@@ -563,8 +580,8 @@ h2
         display: flex;
         justify-content: center;
         flex-grow: 1;
-        padding-bottom: 20px;
         border-bottom: solid 2px #F2F2F2;
+        width: 50%;
     }
 
     #hebMar:hover
@@ -572,8 +589,8 @@ h2
         display: flex;
         justify-content: center;
         flex-grow: 1;
-        padding-bottom: 20px;
         border-bottom: solid 2px #0065FC;
+        width: 50%;
     }
 
     #actMar:hover
@@ -581,8 +598,8 @@ h2
         display: flex;
         justify-content: center;
         flex-grow: 1;
-        padding-bottom: 20px;
         border-bottom: solid 2px #0065FC;
+        width: 50%;
     }
     
     
