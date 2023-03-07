@@ -189,8 +189,8 @@ h2
 {
     display: inline;
     flex-wrap: nowrap;
-    width: 800px;
-    height: 626px;
+    width: 60%;
+    height: 607px;
     background: #F2F2F2;
     border-radius: 20px;
     padding: 2.5%;
@@ -199,8 +199,8 @@ h2
 
 #populaire
 {  
-    height: 625px;
-    width: 420px;
+    height: 20%;
+    width: 28%;
     background: #F2F2F2;
     border-radius: 20px;
     padding: 2.5%;
@@ -223,10 +223,14 @@ h2
 
 #content1
 {
-    width: 103%;
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
+}
+
+#content1 a
+{
+    width: 30%;
 }
 
 #hebergement div a
@@ -240,7 +244,7 @@ h2
 .hebergeSelect
 {
     background-color: white;
-    width: 246px;
+    width: 100%;
     height: 220px;
     border-radius: 20px;
     box-shadow: 10px 5px 5px rgb(236, 236, 236);
@@ -289,7 +293,7 @@ h2
 #chart
 {
     color: #0065FC;
-    margin-left: 39%;
+    margin-left: 35%;
 }
 
 
@@ -338,6 +342,7 @@ h2
 .lieux
 {
     box-shadow: 10px 5px 5px rgb(236, 236, 236);
+    width: 25%;
     border-radius: 20px;
     margin-right: 5.5%;
 }
@@ -350,8 +355,8 @@ h2
 
 .lieux img
 {
-    width: 300px;
-    height: 400px;
+    width: 100%;
+    height: 80%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
@@ -440,6 +445,7 @@ h2
     #hebergement
     {
         margin-bottom: 5%;
+        width: 100%;
     }
 
 
@@ -491,9 +497,7 @@ h2
 
     .lieux
     {
-        width: 202px;
-        height: 256px;
-        margin-right: 3%;
+        margin-right: 5%;
     }
 
     .lieux img
