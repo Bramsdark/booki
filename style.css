@@ -807,17 +807,17 @@ h2
     
     #content3
     {
-        display: grid;
-        grid-template-columns: 100%;
-        row-gap: 5%;
-        margin-bottom: -40%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
     }
 
  
     .lieux
     {
-        margin-left: 0;
-        width: 146%;
+        margin-left: 6%;
+        width: 100%;
+        margin-bottom: 5%;
     }
 
     #actMarseille
@@ -843,7 +843,7 @@ h2
         display: grid;
         background: #F2F2F2;
         grid-template-columns: 205px;
-        margin-top: 80%;
+        margin-top: 20%;
         margin-left: 0;
         margin-right: 0;
     }
@@ -855,9 +855,9 @@ h2
     }
 
     #finPage .prop
-{
-    margin-left: 0;
-    margin-right: 0;
-}
+    {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
 }
